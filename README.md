@@ -1,12 +1,28 @@
-# React + Vite
+# Alimerz – Empowering Minds with Memory Support 🧠💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Alimerz** is a web application designed to assist individuals with memory challenges.  
+It offers a suite of tools to support daily life, stimulate the mind, and encourage independence — all in one simple platform.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🧠 **Memory Games** – Engaging mini-games to boost brain activity
+- ⏰ **Alarms & Reminders** – Stay on track with important tasks and routines
+- 📅 **Calendar** – Manage appointments and events with ease
+- 📓 **Digital Diary** – Log daily thoughts and reflections
+- ✅ **To-Do List** – Simple task tracking and progress marking
+- 🤖 **Basic Chatbot** – Provides predefined helpful replies and support
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, Bootstrap
+- **Backend**: Node.js, Express
+- **Storage**: (Optional) Firebase / Local Storage
+- **Chatbot**: Rule-based logic
+
+---
+
+
