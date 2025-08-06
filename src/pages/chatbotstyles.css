@@ -1,0 +1,118 @@
+/* Floating Chat Button */
+.chatbot-button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background: #121a74;
+  color: white;
+  border: none;
+  border-radius: 76px;
+  width: 80px;
+  height: 80px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(20, 13, 223, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.chatbot-button:hover {
+  background: #1109eb;
+  transform: scale(1.1);
+}
+
+/* Chatbot Container */
+.chatbot-container {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: rgba(9, 32, 107, 0.425);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(118, 11, 11, 0.2);
+  max-width: 400px;
+}
+
+.chatbot {
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button */
+.close-chat {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-chat:hover {
+  color: #ff4d4d;
+}
+
+/* Chat Input */
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.chat-input input {
+  width: 75%;
+  padding: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  color: rgb(238, 225, 225);
+}
+
+.chat-input input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.chat-input button {
+  width: 20%;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(0, 123, 255, 0.7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.chat-input button:hover {
+  background-color: rgba(0, 123, 255, 1);
+}
+
+.chat-input button:disabled {
+  background-color: rgba(200, 200, 200, 0.5);
+  cursor: not-allowed;
+}
+
+/* Chatbot Response */
+.chat-response {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
